@@ -1,0 +1,53 @@
+# Mac OS
+.DS_Store
+
+# NPM
+/node_modules
+npm-*
+
+# Testing
+/.nyc_output
+/coverage
+
+# Build
+/build
+/dist
+/.opt-in
+
+# Generated translation files
+/translations
+/locale
+
+# Other generated source
+/src/generated
+
+# Downloaded during "npm install"
+/static/microbit
+
+# for act
+.secrets
+
+# Tauri target
+src-tauri/target/
+
+# Build output
+bin/
+
+# Specific binary files
+*.exe
+*.msi
+*.dmg
+*.app
+*.deb
+
+# Rust/Cargo specific
+src-tauri/Cargo.lock
+
+# Environment/Secret files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
